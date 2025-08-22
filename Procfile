@@ -1,1 +1,1 @@
-web: dotnet WebAppMvcDemo.dll
+web: ./WebAppMvcDemo --urls http://*:$PORT
