@@ -1,1 +1,1 @@
-web: ./WebAppMvcDemo --urls http://*:$PORT
+web: cd WebAppMvcDemo/bin/publish && dotnet WebAppMvcDemo.dll
