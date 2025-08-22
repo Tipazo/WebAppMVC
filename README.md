@@ -26,4 +26,6 @@ Crea una variable de entorno de sistema con la siguiente configuración:
 Clave (Key): API_EMPLOYEE
 Valor (Value): la URL generada por el IIS donde esté publicado el proyecto WebApiDemo.
 
-```API_EMPLOYEE = https://mi-servidor.com/WebApiDemo/ ```
+```json
+API_EMPLOYEE = https://mi-servidor.com/WebApiDemo/
+```
