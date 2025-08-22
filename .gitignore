@@ -1,0 +1,16 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+WebAppMvcDemo/bin/
+WebAppMvcDemo/obj/
+WebAppMvcDemo/Debug/
+WebAppMvcDemo/Release/
+
+# Others
+*.log
+*.vsidx

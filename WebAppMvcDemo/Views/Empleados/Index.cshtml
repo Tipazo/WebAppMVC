@@ -1,0 +1,33 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+    @model IEnumerable<EmployeeNode>
+}
+
+<h2 class="title">Empleados</h2>
+
+@if (Model != null && Model.Any())
+{
+    <div class="card">
+        <div class="card-header">
+            <a href="/Empleados/Create" class="btn btn-primary float-end">
+                Crear nuevo empleado
+            </a>
+        </div>
+        <div class="card-body">
+            <ul>
+                @foreach (var employees in Model)
+                {
+                    @Html.Partial("_EmployeeTree", employees)
+                }
+            </ul>
+        </div>
+    </div>
+
+} 
+else
+{
+    <p>No hay contenido para mostrar, revise la configuración del API</p>
+}
